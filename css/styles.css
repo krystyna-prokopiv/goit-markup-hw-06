@@ -328,6 +328,7 @@ button {
   .mobile-menu {
     display: none;
   }
+  
 }
 
 /* --------- BOX-------------*/
@@ -399,6 +400,7 @@ button {
       url(../images/tab-backgr1x.jpg);
   }
 
+
   .box-title {
     max-width: 496px;
     font-size: 56px;
@@ -420,7 +422,7 @@ button {
   .footer-btn:focus {
     background-color: #404bbf;
   }
-}
+
 
 @media screen and (min-resolution: 2x) {
   .box {
@@ -430,6 +432,7 @@ button {
       ),
       url(../images/tab-backgr2x.jpg);
   }
+}
 }
 
 @media screen and (min-width: 1158px) {
@@ -453,7 +456,7 @@ button {
   .modal-button-send {
     margin-top: 48px;
   }
-}
+
 @media screen and (min-resolution: 2x) {
   .box {
     background-image: linear-gradient(
@@ -462,6 +465,7 @@ button {
       ),
       url(../images/people-office2x.jpg);
   }
+}
 }
 
 /* -----------BENEFITS------------ */
@@ -498,7 +502,7 @@ button {
 }
 
 .benefits-subtitle{
-  font-weight: 500;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -561,6 +565,8 @@ button {
   .benefits-item {
     width: calc((100% - 24px) / 4);
   }
+.benefits-subtitle {
+  font-weight: 500;}
 
   .benefits-subtitle,
   .team-subtitle,
@@ -926,9 +932,7 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-  .footer {
-    padding-left: 108px;
-  }
+ 
 
   .footer-container {
     flex-direction: row;
@@ -937,6 +941,7 @@ button {
     justify-content: flex-start;
     row-gap: 72px;
     column-gap: 24px;
+    padding-left: 108px;
   }
 
   .footer-logo-container {
@@ -955,6 +960,9 @@ button {
   .footer-text-send {
     margin-left: 0;
   }
+.footer-soc-text {
+  text-align: left;
+}
 
   .footer-form {
     flex-direction: row;
@@ -972,6 +980,8 @@ button {
   }
   .footer-container {
     flex-wrap: nowrap;
+    padding-left: 0;
+    gap: 0;
   }
   .footer-soc-list {
     align-items: flex-start;
@@ -1150,7 +1160,7 @@ button {
   color: #4d5ae5;
 }
 
-.span {
+.check {
   flex-shrink: 0;
   width: 16px;
   height: 16px;
